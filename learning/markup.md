@@ -20,14 +20,14 @@ We used multiple font sizes to differentiate sections
 
 ## 4. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 We used high contrast colours throughout the website 
-`root {
+`:root {
   --main-color: #647bff;
   --body-color: #090a1a;
   --container-color: #171b3c;
   --heading-color: #222231;
   --box-color: #0d0f26;
   --bg-color: #fff;
-}'
+}`
 
 ## 5. Use various tools to check that a website meets accessibility criteria
 We used Google Chrome's lighthouse to check it met criteria
@@ -69,14 +69,14 @@ We designed the website for desktop first and later adapted it to mobile
 
 ## 9. Create an attractive and accessible colour palette for a project
 We defined a distinct and simple palette which can be found below
-`root {
+`:root {
   --main-color: #647bff;
   --body-color: #090a1a;
   --container-color: #171b3c;
   --heading-color: #222231;
   --box-color: #0d0f26;
   --bg-color: #fff;
-}'
+}`
 
 ## 10. Use CSS variables to apply repeated colours to HTML elements
 We used CSS variables as shown above. It's application is demonstrated below with the navbar
