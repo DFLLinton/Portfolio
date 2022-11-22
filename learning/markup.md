@@ -2,7 +2,7 @@
 
 ## 1. Structure a site using semantic HTML to aid accessibility
 We used 'alt' tags to aid accessibility
-<img src="img/Nerdwhale2-01.png" alt="company image" class="company-pic" />
+`<img src="img/Nerdwhale2-01.png" alt="company image" class="company-pic" />`
 
 ## 2. Make a web page more readable for screen readers
 
