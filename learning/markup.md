@@ -1,7 +1,8 @@
 # Markup portfolio
 
 ## 1. Structure a site using semantic HTML to aid accessibility
-![Alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png "a title")
+We used 'alt' tags to aid accessibility
+<img src="img/Nerdwhale2-01.png" alt="company image" class="company-pic" />
 
 ## 2. Make a web page more readable for screen readers
 
