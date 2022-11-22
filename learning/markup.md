@@ -20,7 +20,7 @@ We used multiple font sizes to differentiate sections
 
 ## 4. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 We used high contrast colours throughout the website 
-`:root {
+`root {
   --main-color: #647bff;
   --body-color: #090a1a;
   --container-color: #171b3c;
@@ -69,7 +69,7 @@ We designed the website for desktop first and later adapted it to mobile
 
 ## 9. Create an attractive and accessible colour palette for a project
 We defined a distinct and simple palette which can be found below
-`:root {
+`root {
   --main-color: #647bff;
   --body-color: #090a1a;
   --container-color: #171b3c;
