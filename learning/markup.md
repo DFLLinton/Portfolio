@@ -1,7 +1,7 @@
 # Markup portfolio
 
 ## 1. Structure a site using semantic HTML to aid accessibility
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+![Alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png "a title")
 
 ## 2. Make a web page more readable for screen readers
 
