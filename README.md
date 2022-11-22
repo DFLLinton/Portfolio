@@ -2,4 +2,4 @@
 
 ## Topics
 
-1. [Markup](../main/learnings/markup.md)
+1. [Markup](../main/learning/markup.md)
