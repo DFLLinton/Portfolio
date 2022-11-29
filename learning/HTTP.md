@@ -40,10 +40,21 @@ I used GET and POST requests mainly in the workshops rather than the project. Th
         ```
 
 ## 6. Use the map array method to create a new array containing new values
-
-
+I didn't use this in my project but I did multiple times of the execute program course
+```js
+const nums = [1, 2, 3];
+nums.map(num => num * 10);
+```
 ## 7. Use the filter array method to create a new array with certain values removed
-
+I didn't use this in my project either but I did multiple times of the execute program course
+``` js 
+const arrays = [
+  [1, 2],
+  [2, 3],
+  [3, 4],
+];
+arrays.filter(array => array.includes(2));
+```
 ## 8. Access DOM nodes using a variety of selectors
 Here we acessed the value of an input field.
 ``` js
