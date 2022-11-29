@@ -14,7 +14,7 @@ We used h1, h2 and h3 tags to distinguish content for screen readers
 
 ## 3. Design a UI without relying solely on colour, so that we don’t exclude colour-blind users
 We used multiple font sizes to differentiate sections
-``` html
+``` css
 .home-text h1 {
   font-size: 3.5rem;
 }
@@ -26,7 +26,7 @@ We used multiple font sizes to differentiate sections
 
 ## 4. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 We used high contrast colours throughout the website 
-``` html
+``` css
 :root {
   --main-color: #647bff;
   --body-color: #090a1a;
@@ -42,7 +42,7 @@ We used Google Chrome's lighthouse to check it met criteria
 
 ## 6. Ensure a website displays well on screens of different sizes
 We used media queries to check that it displayed well on screens of different sizes
-``` html
+``` css
 @media (max-width: 800px) {
   header {
     position: fixed;
@@ -57,7 +57,7 @@ We used media queries to check that it displayed well on screens of different si
 
 ## 7. Use CSS media queries to ensure content is always presented effectively
 This is another example of using media queries to ensure the description of projects section was always presented well
-``` html
+``` css
 .description {
     max-width: 400px;
     width: 400px;
@@ -81,7 +81,7 @@ We designed the website for desktop first and later adapted it to mobile
 
 ## 9. Create an attractive and accessible colour palette for a project
 We defined a distinct and simple palette which can be found below
-```html
+```css
 :root {
   --main-color: #647bff;
   --body-color: #090a1a;
@@ -94,7 +94,7 @@ We defined a distinct and simple palette which can be found below
 
 ## 10. Use CSS variables to apply repeated colours to HTML elements
 We used CSS variables as shown above. It's application is demonstrated below with the navbar
-``` html
+``` css
 .navbar {
   position: fixed;
   top: 0;
