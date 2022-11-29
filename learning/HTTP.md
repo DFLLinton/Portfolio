@@ -2,6 +2,7 @@
 
 ## 1. Write code that executes asynchronously
 
+
 ## 2. Use callbacks to access values that aren't available synchronously
 
 
@@ -9,7 +10,14 @@
 
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
-
+Here we used fetch to access a business slogan generator
+``` js
+function GenerateTagLine() {
+  fetch('https://corporatebs-generator.sameerkumar.website/')
+    .then((response) => response.json())
+    .then((response) => document.getElementById("x2").innerHTML = response.phrase)
+}
+```
 
 ## 5. Configure the options argument of the fetch method to make GET and POST requests
 
