@@ -1,7 +1,13 @@
 # HTTP portfolio
 
 ## 1. Write code that executes asynchronously
-
+Here I wrote a function which uses the function 'fetchinglaps' within the LapContainer function
+``` js
+function RenderLaps(){
+  var LapContainer = document.querySelector('.lapcontainer');
+     LapContainer.innerHTML = `Laps:<br>    ${fetchinglaps(1)}
+${fetchinglaps(2)}
+```
 
 ## 2. Use callbacks to access values that aren't available synchronously
 This is from another project but here I used callbacks to access which item should be affected by the function
@@ -16,7 +22,12 @@ document.getElementById("item"+x).style.color="rgba(0, 0, 0, 0.0)";
 ```
 
 ## 3. Use promises to access values that aren’t available synchronously
-
+I used promises in the workshop more than the project itself
+``` js 
+Promise.all([oliverPromise, starsuitPromise])
+        .then(console.log)
+        .catch(console.error);
+        ```
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 Here we used fetch to access a business slogan generator
@@ -45,6 +56,7 @@ I didn't use this in my project but I did multiple times of the execute program 
 const nums = [1, 2, 3];
 nums.map(num => num * 10);
 ```
+
 ## 7. Use the filter array method to create a new array with certain values removed
 I didn't use this in my project either but I did multiple times of the execute program course
 ``` js 
@@ -55,6 +67,7 @@ const arrays = [
 ];
 arrays.filter(array => array.includes(2));
 ```
+
 ## 8. Access DOM nodes using a variety of selectors
 Here we acessed the value of an input field.
 ``` js
@@ -79,11 +92,33 @@ function showImage() {
   document.getElementById('x4').style.display = "block";
 }
 ```
+
 ## 11. Use consistent layout and spacing
+I don't think I used consistent layout and spacing within this project but my work was centred.
+``` css
+.container {
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 350px;
+  height: 200px;
+    font-family: "Poppins";
+}
+```
 
 ## 12. Follow a spacing guideline to give our app a consistent feel
+I didn't use it in this project but went on to use CSS grid extensively.
 
 ## 13. Debug client side JS in our web browser
+Here I used catch and console.error to record errors
+``` js
+getUser("oliverjam")
+        .then(getRepos)
+        .then(console.log)
+        .catch(console.error);
+        ```
 
 ## 14. Use console.log() to help us debug our code
 Here I used console.log extensively as it would help double check the inputted was being retrieved
