@@ -4,7 +4,16 @@
 
 
 ## 2. Use callbacks to access values that aren't available synchronously
-
+This is from another project but here I used callbacks to access which item should be affected by the function
+```js
+function openDoor(x){
+  if (mm >= 12 && dd >= x){
+document.getElementById("item"+x).style.backgroundImage=findCorrectImage(x);  
+document.getElementById("item"+x).style.color="rgba(0, 0, 0, 0.0)";
+    localStorage.setItem('item'+x, 'open');
+}else{};
+}
+```
 
 ## 3. Use promises to access values that aren’t available synchronously
 
@@ -20,7 +29,15 @@ function GenerateTagLine() {
 ```
 
 ## 5. Configure the options argument of the fetch method to make GET and POST requests
+I used GET and POST requests mainly in the workshops rather than the project. This is an example.
+``` js
+      const oliverPromise = getUser("oliverjam");
+      const starsuitPromise = getUser("starsuit");
 
+      Promise.all([oliverPromise, starsuitPromise])
+        .then(console.log)
+        .catch(console.error);
+        ```
 
 ## 6. Use the map array method to create a new array containing new values
 
