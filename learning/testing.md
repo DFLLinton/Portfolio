@@ -1,7 +1,16 @@
 # Testing portfolio
 
 ## 1. Check that passing a given input into our tests returns the expected output
+
 ## 2. Write tests to mimic the behaviour of a user performing different actions
+Here we stimulated the pressing of certain buttons and inputs to check that the function worked.
+``` js
+test("Should add taskinput to list", () => { //works
+  const taskInput = document.getElementById("mytask");
+  taskInput.value = "drink";
+  const submitButton = document.querySelector("button[id='push']");
+  submitButton.click();
+```
 ## 3. Write testable, modular functions
 ## 4. Write functions that add, remove or modify DOM nodes
 ## 5. Apply event listeners to HTML form elements
