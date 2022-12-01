@@ -23,6 +23,13 @@ test("Clicking delete will remove a task from the list", () => {
 ```
 
 ## 3. Write testable, modular functions
+The function that deleted items from the to do list was easily testable
+``` js
+var current_tasks = document.querySelectorAll(".delete");
+        for(var i=0; i<current_tasks.length; i++){
+            current_tasks[i].onclick = function(){
+                this.parentNode.remove();
+                ```
 ## 4. Write functions that add, remove or modify DOM nodes
 This function add a strike-through to completed tasks using Javascript to affect the CSS
 ``` js
@@ -47,5 +54,44 @@ function raiseError() {
     }
     ```
 ## 6. Use scope to control what variables are accessible inside functions and blocks
+Within my take-home challenge I used both 'var' and 'let' to define different variables as demonstrated below.
+`` js
+var dd = String(today.getDate()).padStart(2, '0');
+
+for (let i = 1; i < 25; i++) {
+loadProgress(i);
+}
+```
 ## 7. Use CSS grid to create complex layouts
+I used css grid more in the take-home challenges but I have included it below.
+``` css
+.grid-container {
+  margin-left:auto;
+  margin-right:auto;
+  display: grid;
+  grid-template: 150px 150px 150px 150px 150px 150px 150px 150px / 150px 150px 150px;
+  grid-gap: 10px;
+  padding: 10px;
+  padding-top: 20px;
+    padding-bottom: 20px;
+  justify-content: center;
+  min-width: 500px;
+  max-width: 600px;
+}
+```
 ## 8. Use CSS grid to make layouts that adapt to the viewport size
+I tested the same CSS using percentages instead and it adapted to viewport size well. It is included below
+``` css
+.grid-container {
+  margin-left:auto;
+  margin-right:auto;
+  display: grid;
+  grid-template: 20% 20% 20% 20% 20% 20% 20% 20%/ 20% 20% 20%;
+  grid-gap: 10px;
+  padding: 10px;
+  padding-top: 20px;
+    padding-bottom: 20px;
+  justify-content: center;
+  width: 80%;
+}
+```
