@@ -42,7 +42,7 @@ We used high contrast colours throughout the website
 We used Google Chrome's lighthouse to check it met certain criteria
 
 ## 6. Ensure a website displays well on screens of different sizes
-We used media queries to check that it displayed well on screens of different sizes
+We used media queries to check that it displayed well on screens of different sizes. One could also use CSS flex or grid.
 ``` css
 @media (max-width: 800px) {
   header {
