@@ -23,7 +23,7 @@ We used multiple font sizes to differentiate sections
   margin-bottom: 1.5rem;
 }
 ```
-
+![image](portfolio/learning/greyscale)
 ## 4. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 We used high contrast colours throughout the website 
 ``` css
