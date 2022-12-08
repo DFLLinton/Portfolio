@@ -77,7 +77,7 @@ This is another example of using media queries to ensure the description of proj
 ```
 
 ## 8. Demonstrate a mobile-first approach to designing a website with a great user experience
-We designed the website for desktop first and later adapted it to mobile
+We designed the website for desktop first and later adapted it to mobile. If we had designed it for mobile first we would likely have used more relative size tags such as percentages or rem. On the other hand we could have used media queries which applied to desktop and had mobile view as the default.
 
 ## 9. Create an attractive and accessible colour palette for a project
 We defined a distinct and simple palette which can be found below
