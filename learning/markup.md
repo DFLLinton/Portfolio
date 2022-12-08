@@ -39,7 +39,7 @@ We used high contrast colours throughout the website
 ```
 
 ## 5. Use various tools to check that a website meets accessibility criteria
-We used Google Chrome's lighthouse to check it met criteria
+We used Google Chrome's lighthouse to check it met certain criteria
 
 ## 6. Ensure a website displays well on screens of different sizes
 We used media queries to check that it displayed well on screens of different sizes
